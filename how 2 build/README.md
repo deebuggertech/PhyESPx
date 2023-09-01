@@ -25,7 +25,7 @@ In the next step, you'll have to assemble the battery and BMS unit, which will b
 <br><br>
 Check if the setup works properly by attaching a button temporarily to the standby button wires and a multimeter to the output. Then, glue the battery and the BMS in the bottom casing part and put the divider right on top. Use some short wires to connect the ESP32, the card edge connector, the buttons, and the LEDs according to this schematic.
 <br><br>
-<img src="https://github.com/deebuggertech/PhyESPx/assets/73055949/4271f7b5-fda7-431e-ab4b-d3eb73a6977b" width="100%">
+<img src="https://github.com/deebuggertech/PhyESPx/blob/main/how%202%20build/schematic.png" width="100%">
 <br><br>
 Upload <a href="https://github.com/deebuggertech/PhyESPx/tree/main/esp32">the sketch</a> to the ESP32 using the Arduino IDE. Make sure to modify the network setup according to your needs. This involves:<br>
 - Adding your WiFi credentials (<b>WiFi_SSID, WiFi_PASSWD</b>)<br>
