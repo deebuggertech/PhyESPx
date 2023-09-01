@@ -1,0 +1,8 @@
+<?php
+
+$UI_VERS = "3.1.2";
+
+$TRANSMITTER_IP_RANGE_MIN = 201;
+$TRANSMITTER_IP_RANGE_MAX = 220;
+
+?>

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>ERROR</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link rel="stylesheet" href="../../res/style.css">
+  <script src="../../res/chart.js"></script>
+  <script src="../../res/builder.js"></script>
+  <script src="controller.js"></script>
+  <script>
+  let server1 = "ws://192.168.178.201:81";
+  let server2 = "ws://192.168.178.202:81";
+
+  let sensorName="LED Characteristics";
+  </script>
+</head>
+
+<body>
+<div id="header">
+    <a href="/"><img id="logo" src="../../res/logo.png"/></a>
+    <div id="titleBar">
+      <h1 id="title">ERROR</h1>
+    </div>
+    <div id="buttons">
+      <div id="measuring" onclick="toggleMeasuring()"></div><div id="clear" onclick="clearData()"></div><div id="export" onclick="exportData()"></div>
+    </div>
+</div>
+
+<div id="viewSelectorBar">
+  <ul id="viewSelector">
+  </ul>
+</div>
+
+<div id="views"></div>
+<div id="error">No error.</div>
+
+</body>
+</html>
